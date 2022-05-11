@@ -2684,6 +2684,17 @@ entries:
     urls:
     - assets/kong/kong-2.3.1.tgz
     version: 2.3.1
+  kubeslice-controller:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2022-05-11T15:15:13.948213517+05:30"
+    description: A Helm chart for kubeslice-controller
+    digest: 191f04a61cf531d595e35a17f9d45480aa804b13a74f32322ff04718105f5eec
+    name: kubeslice-controller
+    type: application
+    urls:
+    - assets/kubeslice-controller/kubeslice-controller-0.1.1.tgz
+    version: 0.1.1
   kuma:
   - annotations:
       catalog.cattle.io/certified: partner
