@@ -1,0 +1,11 @@
+apiVersion: v2
+appVersion: 0.1.1
+description: A Helm chart for kubeslice-controller
+name: kubeslice-controller
+type: application
+version: 0.1.0
+kubeVersion: "1.21 - 1.24"# A SemVer range of compatible Kubernetes versions. E.g "1.18 - 1.21", ">= 1.19", etc
+annotations:
+  catalog.cattle.io/certified: partner # Enables the "partner" badge in the UI for easier identification
+  catalog.cattle.io/release-name: kubeslice-controller # Your chart's name in kebab-case, this is used for deployment
+  catalog.cattle.io/display-name: Kubeslice-Controller # The chart's name you want displayed in the UI
