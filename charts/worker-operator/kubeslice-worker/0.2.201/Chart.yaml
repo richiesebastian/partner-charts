@@ -1,0 +1,11 @@
+annotations:
+  catalog.cattle.io/certified: partner
+  catalog.cattle.io/display-name: Worker-Operator
+  catalog.cattle.io/release-name: worker-operator
+apiVersion: v2
+appVersion: 0.2.2
+description: KubeSlice Operator
+kubeVersion: 1.21 - 1.24
+name: kubeslice-worker
+type: application
+version: 0.2.201

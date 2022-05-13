@@ -2695,6 +2695,22 @@ entries:
     urls:
     - assets/kubeslice-controller/kubeslice-controller-0.1.1.tgz
     version: 0.1.1
+  kubeslice-worker:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Worker-Operator
+      catalog.cattle.io/release-name: worker-operator
+    apiVersion: v2
+    appVersion: 0.2.2
+    created: "2022-05-13T15:57:24.527344588+05:30"
+    description: KubeSlice Operator
+    digest: 133c5a9adcf6426c4f7376bc61ced7546231ef146073bd80839424865b122a01
+    kubeVersion: 1.21 - 1.24
+    name: kubeslice-worker
+    type: application
+    urls:
+    - assets/worker-operator/kubeslice-worker-0.2.201.tgz
+    version: 0.2.201
   kuma:
   - annotations:
       catalog.cattle.io/certified: partner
